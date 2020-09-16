@@ -1,0 +1,16 @@
+seed: 31
+normalize_gradients: True
+learning_rate: 1e-2
+batch_size_training: 512   
+shuffle_training: True
+drop_last_batch_training: False
+shuffle_validation: True
+drop_last_batch_validation: False
+shuffle_testing: True
+drop_last_batch_testing: False
+number_of_epochs: 100
+frank_wolfe_max_iter: 200
+anneal: False
+beta_start: 0
+beta_cap: 0.3
+beta_step: 0.3/10000
